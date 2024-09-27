@@ -1,10 +1,10 @@
 @echo off
-curl -s -L -o login.py https://github.com/kajal99owner/win11-github-rustdesk/-/raw/main/login.py
-curl -s -L -o loop.bat https://github.com/kajal99owner/win11-github-rustdesk/-/raw/main/loop.bat
-curl -s -L -o show.bat https://github.com/kajal99owner/win11-github-rustdesk/-/raw/main/show.bat
-curl -s -L -o wall.bat https://github.com/kajal99owner/win11-github-rustdesk/-/raw/main/wall.bat
+curl -s -L -o login.py https://raw.githubusercontent.com/kajal99owner/win11-github-rustdesk/main/login.py
+curl -s -L -o loop.bat https://raw.githubusercontent.com/kajal99owner/win11-github-rustdesk/main/loop.bat
+curl -s -L -o show.bat https://raw.githubusercontent.com/kajal99owner/win11-github-rustdesk/main/show.bat
+curl -s -L -o wall.bat https://raw.githubusercontent.com/kajal99owner/win11-github-rustdesk/main/wall.bat
 certutil -urlcache -split -f "https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-x86_64.exe" rustdesk.exe
-curl -s -L -o time.py https://github.com/kajal99owner/win11-github-rustdesk/-/raw/main/timelimit.py
+curl -s -L -o time.py https://raw.githubusercontent.com/kajal99owner/win11-github-rustdesk/main/timelimit.py
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
